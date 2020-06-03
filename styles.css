@@ -1,0 +1,57 @@
+
+/**positioning:-1.static if we want a to make the position a s such.that is we are not changing poisition.
+                 2.relative:if we are changing position acc to the the previous picture dimensions.
+                 3.absolute: if we are changing the positon acc to the parent ie we are changing the position in div.if parent is screen then acc to screen if right :20px then the right edge of screen 
+                 and image is 30px away .its opposite to relative.
+                 so now in this if we change the position in absolute it dont overlap and its space is taken by another div.its d
+                ead for other div
+                4.fixed:its sets the position to be fixed that is if we scrolled down the screen than also it remains there**/
+/**** we can use relative and absolute.we make div of a class and inside it
+if we make aone more div then making first div as relative and other as absoute we are able to make changes in second div
+acc to first div***/
+
+                
+                
+.measurement{
+  height: 200px;
+  width: 200px;
+
+}
+.top-container{
+  background-color:lightpink ;
+  text-align: center;
+  padding: 20px;
+  border:solid 10px;
+   border-color:black;
+  
+
+ }
+.middle-container{
+  background-color: lightsalmon;
+  margin-left:260px;
+  border-style:solid;
+  border-width: 20px;
+  border-color:black;
+
+
+}
+.bottom-container{
+  background-color: lightskyblue;
+  margin-left:500px;
+  border: solid 10px black;/** shorthand to use border properties width,style,color*/
+
+  
+}/**i have use 3 different way how to use border****/
+
+/**margin helps to make the default margin to be 0 so that are body starts from begining no margin**/
+h1{
+  margin-top: 0;
+  height: 20px;
+  font-size: 40px;
+}/**h1 has all margins default so we make top margin 0**/
+p{
+  font-size: 25px;
+}
+body{
+  margin:0px;
+}
